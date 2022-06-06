@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
 
-*{margin: 0px; padding: 0px; list-style-type: none; font-family: 'Manrope'; font-size: 14px; letter-spacing: 0.02em;}
+*{margin: 0px; padding: 0px; list-style-type: none; font-family: 'Manrope'; font-size: 14px;}
 
 aside, .mainMobile,.blurImageMobile{display: none;}
 header nav li:first-child img:last-child {display: none;}
