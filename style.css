@@ -19,6 +19,7 @@ body{
    
 }
 
+header{margin-left: 200px;}
 nav ul{
     display: flex;
     justify-content: center;
@@ -27,12 +28,13 @@ nav ul{
     color: rgb(197, 197, 197);
 }
 
-nav li:first-child{margin-right: 0rem;}
+nav li:first-child{margin-right: 4rem;}
 
 .CatchCoffee{
 
     border: 1px solid #8257E5; 
     padding:2vh 4vw; border-radius: 4px;
+    margin-left: 60px;
 
 }
 
@@ -74,6 +76,18 @@ header li:nth-child(6){
     
     display: none;
 }
+
+
+header{margin-left: 0px;}
+nav li:first-child{margin-right: 0rem;}
+.CatchCoffee{
+    margin-left: 0px;
+}
+
+
+
+
+
 nav li:nth-child(8){
     display: block;
 }
@@ -207,4 +221,6 @@ nav li:nth-child(8){
         height: 26vh;
         
       }
+
+
 }
