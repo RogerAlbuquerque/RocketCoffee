@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RocketCoffee</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img class="blurImage" src="images/Blur_Right.png" style="position:absolute ; top: 0; right: 0; z-index: -1;" alt="">
+    
+    <header>
+        <nav>
+            <ul>
+                <li>    <img src="images/Logo.svg" alt=""> <img src="images/LogoMobile.png" alt=""></li>
+                <li>    Home</li>
+                <li>    Menu</li>
+                <li>    Recompensas                        </li>
+                <li>    Gift Cards                         </li>
+                <li>    Lojas                              </li>
+                <li class="CatchCoffee">    <strong>PEGAR MEU CAFÉ</strong>    </li>
+                
+                <li onclick="showMenu()">
+                    <img src="images/MenuHambúrguer.png" alt="">                
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <article class="mainMobile">
+            <section>
+                <p>O café que fará seu código decolar para 
+                    o próximo nível.
+                </p>
+
+            </section>
+            <section>
+                <strong class="CatchCoffee">PEGAR MEU CAFÉ</strong>
+            </section>
+        </article>
+
+        <article>
+            <section>
+                <img src="images/Title.png" alt="">
+            </section>
+
+            <section>
+                <img src="images/ImgCoffee.png" width="1199" height="674" alt="">
+            </section>
+           
+        </article>
+
+        
+        
+       
+    </main>
+
+        
+    <img class="blurImage" src="images/Blur_Left.png" alt="" style="position: absolute; top:0; z-index: -1;">
+
+    
+    <aside>
+        <nav class="mobile">
+            <ul style="color: white;">
+                <li> 
+                    <img src="images/LogoMobile.png" alt=""> 
+                    <img src="images/X.png" alt="" onclick="hideMenu()">
+                        </li>
+                <li>Home</li>
+                <li>Menu</li>
+                <li>Recompensas</li>
+                <li>Gift Cards</li>
+                <li>Lojas</li>
+            </ul>
+        </nav>
+    </aside>
+
+ <img class="blurImageMobile" src="images/blurCenter.png" width="100%" alt="" style="position: absolute; bottom:0 ; z-index: -1;">
+
+    <script>
+        function showMenu(){
+            document.querySelector('aside').style.display="block"
+            document.querySelector('header').style.display="none"
+            document.querySelector('main').style.display="none"  
+            document.querySelector('body').style.paddingTop="0px"
+           
+                          
+        }
+
+        function hideMenu(){
+
+            document.querySelector('aside').style.display="none"
+            document.querySelector('header').style.display="block"
+            document.querySelector('main').style.display="flex"  
+            document.querySelector('body').style.paddingTop="50px"  
+ 
+
+        }
+    </script>
+
+    </body>
+</html>
