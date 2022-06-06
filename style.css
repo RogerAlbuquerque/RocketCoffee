@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
 
-*{margin: 0px; padding: 0px; list-style-type: none; font-family: 'Manrope'; font-size: 14px;}
+*{margin: 0px; padding: 0px; list-style-type: none; font-family: 'Manrope'; font-size: 14px;  letter-spacing: 0.02em;}
 
 aside, .mainMobile,.blurImageMobile{display: none;}
 header nav li:first-child img:last-child {display: none;}
@@ -205,7 +205,8 @@ nav li:nth-child(8){
       .CatchCoffee{
 
         border: 1px solid #8257E5; 
-        padding:1vh 2vw; border-radius: 4px;
+        padding:auto auto; border-radius: 4px;
+        font-size:12px;
     
     }
    
