@@ -166,7 +166,7 @@ nav li:nth-child(8){
 
 /* --------------SITE EM MODO MOBILE -----------------------*/
     .mainMobile{
-        display: flex;        
+        display: flex;   
     }
 
     .mainMobile p{
@@ -202,6 +202,7 @@ nav li:nth-child(8){
 
         border: 1px solid #8257E5; 
         padding:1vh 2vw; border-radius: 4px;
+        box-sizing: border-box;
     
     }
    
@@ -217,5 +218,6 @@ nav li:nth-child(8){
         height: 26vh;
         
       }
+
 
 }
