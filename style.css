@@ -32,7 +32,7 @@ nav li:first-child{margin-right: 0rem;}
 .CatchCoffee{
 
     border: 1px solid #8257E5; 
-     padding:1vh 2vw; border-radius: 4px;
+    padding:2vh 4vw; border-radius: 4px;
 
 }
 
@@ -65,7 +65,7 @@ main article:last-child section:last-child img{
 }
 
 @media screen and (max-width: 1020px) { 
-   
+   body{overflow-y: scroll;}
 header li:nth-child(2),
 header li:nth-child(3),
 header li:nth-child(4),
@@ -124,12 +124,6 @@ nav li:nth-child(8){
     cursor: pointer;
 
 }
-
-main section:last-child img{
-    width: 70vw;
-    height: 52vh;
-    
-  }
 
 }
 
@@ -194,6 +188,12 @@ main section:last-child img{
           display: block;
       }
 
+      .CatchCoffee{
+
+        border: 1px solid #8257E5; 
+        padding:1vh 2vw; border-radius: 4px;
+    
+    }
    
 } 
 
@@ -207,6 +207,4 @@ main section:last-child img{
         height: 26vh;
         
       }
-
-
 }
