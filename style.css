@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
 
-*{margin: 0px; padding: 0px; list-style-type: none; font-family: 'Manrope'; font-size: 14px;  letter-spacing: 0.02em;}
+*{margin: 0px; padding: 0px; list-style-type: none; font-family: 'Manrope'; font-size: 14px; letter-spacing: 0.02em;}
 
 aside, .mainMobile,.blurImageMobile{display: none;}
 header nav li:first-child img:last-child {display: none;}
@@ -67,7 +67,7 @@ main article:last-child section:last-child img{
 }
 
 @media screen and (max-width: 1020px) { 
-   body{overflow-y: scroll;}
+
 header li:nth-child(2),
 header li:nth-child(3),
 header li:nth-child(4),
@@ -166,11 +166,7 @@ nav li:nth-child(8){
 
 /* --------------SITE EM MODO MOBILE -----------------------*/
     .mainMobile{
-        display: flex;
-        flex-direction: column;    
-        justify-content: center;
-        align-items: center; 
-        
+        display: flex;        
     }
 
     .mainMobile p{
@@ -179,7 +175,7 @@ nav li:nth-child(8){
 
     }
     .mainMobile section{
-       padding: 4rem;
+       padding: 4rem 0rem;
     }
 
     header nav ul{
@@ -205,8 +201,7 @@ nav li:nth-child(8){
       .CatchCoffee{
 
         border: 1px solid #8257E5; 
-        padding:auto auto; border-radius: 4px;
-        font-size:12px;
+        padding:1vh 2vw; border-radius: 4px;
     
     }
    
@@ -222,6 +217,5 @@ nav li:nth-child(8){
         height: 26vh;
         
       }
-
 
 }
